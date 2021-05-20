@@ -7,7 +7,7 @@ a.addEventListener("click", () => {
 
   document.getElementById("blub1").setAttribute("src", c);
   document.querySelector("p").textContent = "Blub ON";
-  document.querySelector("p").style.color = "black";
+  document.querySelector("p").style.color = "blue";
 
   let e = document.getElementsByTagName("p");
   console.log(e);
@@ -19,5 +19,5 @@ b.addEventListener("click", () => {
 
   document.getElementById("blub1").setAttribute("src", d);
    document.querySelector("p").textContent = "Blub OFF";
-  document.querySelector("p").style.color = "blue";
+  document.querySelector("p").style.color = "black";
 });

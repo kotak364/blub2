@@ -70,9 +70,9 @@ p {
 
 /* ===== button end  =====   */
 
-/* ===== media query start  =====   */
+/* ===== media query start (for mobile/tablet mode) =====   */
 
-@media screen and (max-width: 48rem) {
+@media screen and (max-width: 62rem) {
   h1 {
     font-size: 3rem;
     margin-bottom: 1rem;
