@@ -1,23 +1,23 @@
+// js variable list 
 const a = document.querySelector("#btn1");
 const b = document.querySelector("#btn2");
+const c = "blub" + "2" + ".png";
+const d = "blub" + "1" + ".png";
+const e = document.getElementById("blub1");
+const f = document.querySelector("p");
+
+
 
 // ON button event
 a.addEventListener("click", () => {
-  const c = "blub" + "2" + ".png";
-
-  document.getElementById("blub1").setAttribute("src", c);
-  document.querySelector("p").textContent = "Blub ON";
-  document.querySelector("p").style.color = "blue";
-
-  let e = document.getElementsByTagName("p");
-  console.log(e);
+  e.setAttribute("src", c);
+  f.textContent = "Blub ON";
+  f.style.color = "blue";
 });
 
 //OFF button event
 b.addEventListener("click", () => {
-  const d = "blub" + "1" + ".png";
-
-  document.getElementById("blub1").setAttribute("src", d);
-   document.querySelector("p").textContent = "Blub OFF";
-  document.querySelector("p").style.color = "black";
+  e.setAttribute("src", d);
+  f.textContent = "Blub OFF";
+  f.style.color = "black";
 });
