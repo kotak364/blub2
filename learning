@@ -1,0 +1,21 @@
+  
+  
+  //for personal use
+
+          <p id="myid" class="myclass">Blub OFF</p>
+
+  //why this is not work
+  // because it gives array of object not element 
+    // let e = document.getElementsByTagName("p").textContent = "Blub ON";
+    // console.log(e);
+    // document.getElementsByTagName("p").style.color = "black";
+    
+
+    // document.getElementById("myid").textContent = "Blub ON";
+    // document.getElementById("myid").style.color = "black";
+ 
+    //why this is not work
+  // because it gives array of object not element 
+//     let e = document.getElementsByClassName("myclass");
+// console.log(e);
+
